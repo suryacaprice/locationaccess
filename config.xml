@@ -9,7 +9,8 @@
     </author>
     <content src="index.html" />
     <access origin="*" />
-    <preference name="Fullscreen" value="false" />
+	<preference name="android-minSdkVersion" value="20" />
+    <preference name="android-targetSdkVersion" value="27"/>
     <platform name="android">
         <config-file parent="/*" target="AndroidManifest.xml">
             <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
