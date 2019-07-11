@@ -9,8 +9,8 @@
     </author>
     <content src="index.html" />
     <access origin="*" />
-	<preference name="android-minSdkVersion" value="20" />
-    <preference name="android-targetSdkVersion" value="27"/>
+    <preference name="android-minSdkVersion" value="20" />
+    <preference name="android-targetSdkVersion" value="27" />
     <platform name="android">
         <config-file parent="/*" target="AndroidManifest.xml">
             <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
@@ -20,7 +20,6 @@
     </platform>
     <platform name="ios" />
     <plugin name="cordova-plugin-whitelist" spec="*" />
-    <plugin name="cordova.plugins.diagnostic" spec="*" />
     <engine name="ios" spec="latest" />
     <engine name="android" spec="latest" />
 </widget>
